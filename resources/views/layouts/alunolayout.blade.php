@@ -78,7 +78,31 @@
         </nav>
 
         <main class="py-4">
-            @yield('content')
+            <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-2 bg-secondary">
+                    <nav class="navbar navbar-dark bg-secondary">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">aulas fsdfsdffsdfsdfsf</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">aulas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">aulas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">aulas</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-10">
+                    @yield('content')
+                </div>
+            </div>
+            </div>
         </main>
     </div>
 </body>
