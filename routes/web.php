@@ -19,5 +19,6 @@ Route::get('/', [App\Http\Controllers\MainController::class, 'index']);
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/aluno', [App\Http\Controllers\HomeController::class, 'aluno'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/aluno', [App\Http\Controllers\HomeController::class, 'aluno']);
