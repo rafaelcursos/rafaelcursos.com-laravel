@@ -36,10 +36,14 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
+                <div style="width: 100%;" class="menu d-flex justify-content-end">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="/login" class="nav-link">Login</a>
+                        </li>
+                    </ul>
+                </div>
 
-                <ul class="navbar-nav m-auto">
-
-                </ul>
             </div>
     </nav>
     <main>
